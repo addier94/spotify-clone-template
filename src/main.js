@@ -6,8 +6,10 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import './assets/tailwind.css'
 
-import '@/assets/css/tailwind.css'
+import "./assets/tailwind.css";
+
 library.add(fab, fas, far);
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
